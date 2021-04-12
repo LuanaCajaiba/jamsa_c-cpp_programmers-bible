@@ -4,7 +4,7 @@
 
     void WINAPI ReadCompletionRoutine(DWORD dwCdgErro, DWORD dwNumByTesTransf, LPOVERLAPPED pSobreposta){
 
-        PIOREQ pIOReq = (PIOREQ) pSobreposta;
+        PIOREQ pIOReq = (PIOREQ) pSobreposta;//teste
         chASSERT(dwCdgErro == NO_ERROR);
         g_cs.nReadInProgress--;
 
