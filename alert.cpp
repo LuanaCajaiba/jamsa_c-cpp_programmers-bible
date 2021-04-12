@@ -4,7 +4,7 @@ void WINAPI WriteCompletionRoutine(DWORD dwCdgErro, DWORD dwNumBytesTransf, LPOV
 
     void WINAPI ReadCompletionRoutine(DWORD dwCdgErro, DWORD dwNumByTesTransf, LPOVERLAPPED pSobreposta){
 
-        PIOREQ pIOReq = (PIOREQ) pSobreposta;//teste
+        PIOREQ pIOReq = (PIOREQ) pSobreposta;
         chASSERT(dwCdgErro == NO_ERROR);
         g_cs.nReadInProgress--;
 
