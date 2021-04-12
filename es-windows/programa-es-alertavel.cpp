@@ -1,4 +1,4 @@
-   void WINAPI WriteCompletionRoutine(DWORD dwCdgErro, DWORD dwNumBytesTransf, LPOVERLAPPED pSobreposta)
+   void WINAPI WriteCompletionRoutine(DWORD dwCdgErro, DWORD dwNumBytesTransf, LPOVERLAPPED pSobreposta) //error here
 
    
 
