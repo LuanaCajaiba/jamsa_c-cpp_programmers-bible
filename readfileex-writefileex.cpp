@@ -7,3 +7,4 @@ Bool ReadFileEx(
     lpRotinaFinalizacao    //endereço da rotina de finalização
 
 );
+
